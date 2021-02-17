@@ -1,0 +1,221 @@
+#modelS {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/ms-homepage-mobile.jpg") center / cover
+    no-repeat;
+  color: #333333;
+}
+
+@media (min-width: 768px) {
+  #modelS {
+    background-image: url("../../assets/img/ms-homepage-desktop.jpg");
+  }
+}
+
+.navbar-light .navbar-brand {
+  width: 150px;
+  background: url("../../assets/img/logo.svg") left / 60% no-repeat;
+  height: 30px;
+}
+
+.navcol-1 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #222222;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #222222;
+}
+
+#titulo {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  color: #333;
+  margin: 0px;
+  height: 186px;
+}
+
+.botao-inventory {
+  background: #f2f2f2;
+  color: #0d0d0d;
+  border-radius: 30px;
+  border: 3px solid #f2f2f2;
+  width: 250px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 0px;
+}
+
+.botao-order {
+  width: 250px;
+  color: #f2f2f2;
+  background: #333;
+  border: 3px solid #333;
+  border-radius: 30px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 0px;
+  padding-top: 6x;
+}
+
+.btn.btn-link.btn-block.botao-seta {
+  color: #0d0d0d;
+  display: flex;
+  justify-content: center;
+}
+
+#model3 {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/m3-homepage-mobile.jpg") center / cover
+    no-repeat;
+  color: #333333;
+}
+
+@media (min-width: 768px) {
+  #model3 {
+    background: url("../../assets/img/m3-homepage-desktop.jpg") center / cover
+      no-repeat;
+  }
+}
+
+#modelX {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/mx-homepage-mobile.jpg") center / cover
+    no-repeat;
+  color: #333333;
+}
+
+@media (min-width: 768px) {
+  #modelX {
+    background: url("../../assets/img/mx-homepage-desktop.jpg") center / cover
+      no-repeat;
+  }
+}
+
+#modelY {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/Mobile-ModelY.jpg") center / cover no-repeat;
+  color: #333333;
+}
+
+@media (min-width: 768px) {
+  #modelY {
+    background: url("../../assets/img/Desktop-ModelY.jpg") center / cover
+      no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-inventory {
+    justify-content: flex-start !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-order {
+    justify-content: flex-end !important;
+  }
+}
+
+.navbar-toggler-icon {
+  background-image: url("../../assets/img/bars-solid.svg") !important;
+  font-size: 60%;
+}
+
+#modelLow {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/Mobile-SolarPanels.jpg") center / cover
+    no-repeat;
+  color: #333333;
+}
+
+@media (min-width: 768px) {
+  #modelLow {
+    background: url("../../assets/img/Desktop-SolarPanels.jpg") center / cover
+      no-repeat;
+  }
+}
+
+#modelRoof {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/Mobile-SolarRoof.jpg") center / cover
+    no-repeat;
+  color: #333333;
+}
+
+@media (min-width: 768px) {
+  #modelRoof {
+    background: url("../../assets/img/Desktop-SolarRoof.jpg") center / cover
+      no-repeat;
+  }
+}
+
+.fonteRoof {
+  font-size: 20px !important;
+}
+
+@media (min-width: 768px) {
+  .fonteRoof {
+    font-size: 30px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .fonteRoof {
+    font-size: 40px !important;
+  }
+}
+
+#modelAcessorio {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/Mobile-Accessories.jpg") center / cover
+    no-repeat;
+  color: #333333;
+}
+
+@media (min-width: 768px) {
+  #modelAcessorio {
+    background: url("../../assets/img/Desktop-Accessories.jpg") center / cover
+      no-repeat;
+  }
+}
+
+.btn-block.botaoShop {
+  width: 250px;
+  color: #f2f2f2;
+  background: #333;
+  border: 3px solid #333;
+  border-radius: 30px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 0px;
+}
+
+.rodapeLista {
+  flex-flow: row wrap;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  display: inline;
+  font-size: 12px;
+}
+
+.liRodape {
+  padding-right: 8px;
+}
