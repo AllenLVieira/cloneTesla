@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("../fonts/GothamMedium.ttf");
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  src: url("../fonts/GothamBook.ttf");
+}
+
 #modelS {
   width: 100%;
   height: 100vh;
@@ -21,8 +31,8 @@
 .navcol-1 {
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: bold;
-  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-family: "Gotham Medium", Montserrat, sans-serif;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -33,9 +43,9 @@
   color: #222222;
 }
 
-#titulo {
-  font-family: Montserrat, sans-serif;
-  font-weight: 600;
+.titulo {
+  font-family: "Gotham Medium", Montserrat, sans-serif;
+  font-weight: 500;
   font-size: 80px;
   color: #333;
   margin: 0px;
@@ -48,9 +58,9 @@
   border-radius: 30px;
   border: 3px solid #f2f2f2;
   width: 250px;
-  font-family: Montserrat, sans-serif;
+  font-family: "Gotham Medium", Montserrat, sans-serif;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
   padding: 8px 0px;
 }
 
@@ -60,9 +70,9 @@
   background: #333;
   border: 3px solid #333;
   border-radius: 30px;
-  font-family: Montserrat, sans-serif;
+  font-family: "Gotham Medium", Montserrat, sans-serif;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
   padding: 8px 0px;
   padding-top: 6x;
 }
@@ -201,9 +211,9 @@
   background: #333;
   border: 3px solid #333;
   border-radius: 30px;
-  font-family: Montserrat, sans-serif;
+  font-family: "Gotham Medium," Montserrat, sans-serif;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
   padding: 8px 0px;
 }
 
